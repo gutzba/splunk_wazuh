@@ -9,3 +9,18 @@ modtime = 1491666194.654090000
 [nav/default]
 version = 6.5.2
 modtime = 1491666251.726133000
+
+[props/wazuh]
+owner = admin
+version = 6.5.3
+modtime = 1491695244.357055000
+
+[indexes/wazuh]
+owner = admin
+version = 6.5.3
+modtime = 1491695268.804603000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fossec%2Flogs%2Falerts%2Falerts.json]
+owner = admin
+version = 6.5.3
+modtime = 1491695488.676519000
