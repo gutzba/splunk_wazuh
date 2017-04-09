@@ -24,3 +24,10 @@ modtime = 1491695268.804603000
 owner = admin
 version = 6.5.3
 modtime = 1491695488.676519000
+
+[views/agents]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.5.3
+modtime = 1491710965.307628000
