@@ -1,4 +1,4 @@
-<nav search_view="search" color="#58D3F7">
+<nav search_view="search" color="#218BC6">
   <view name="overview" default='true'/>
   <view name="alerts" />
   <collection label="Compliance">
