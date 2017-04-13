@@ -8,7 +8,7 @@ modtime = 1491666194.654090000
 
 [nav/default]
 version = 6.5.3
-modtime = 1492126007.813767000
+modtime = 1492127895.237845000
 
 [props/wazuh]
 owner = admin
@@ -56,3 +56,23 @@ modtime = 1492125388.431643000
 owner = admin
 version = 6.5.3
 modtime = 1492125475.675693000
+
+[views/fim]
+owner = admin
+version = 6.5.3
+modtime = 1492127641.713578000
+
+[views/audit]
+owner = admin
+version = 6.5.3
+modtime = 1492127702.737721000
+
+[views/policy]
+owner = admin
+version = 6.5.3
+modtime = 1492127771.088838000
+
+[views/openscap]
+owner = admin
+version = 6.5.3
+modtime = 1492127854.264790000

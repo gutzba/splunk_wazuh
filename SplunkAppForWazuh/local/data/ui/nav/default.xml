@@ -5,6 +5,10 @@
   <view name="pci" />
   <view name="cis" />
   </collection>
+   <view name="fim" />
+   <view name="audit" />
+   <view name="policy" />
+   <view name="openscap" />
 <collection label="Manager">
   <view name="agents" />
   </collection>
