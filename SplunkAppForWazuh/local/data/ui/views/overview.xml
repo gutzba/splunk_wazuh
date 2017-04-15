@@ -5,7 +5,7 @@
       <title>Analissd</title>
       <single>
         <search>
-          <query>index=* sourcetype="wazuh_status"  | rename data.ossec-analysisd as analysisd | eval estado=if(analysisd="running","OK","SICK") | stats count by estado | fields estado</query>
+          <query>index="wazuh" sourcetype="wazuh_status"  | rename data.ossec-analysisd as analysisd | eval estado=if(analysisd="running","OK","DOWN") | stats count by estado | fields estado</query>
           <earliest>-1m</earliest>
           <latest>now</latest>
           <sampleRatio>1</sampleRatio>
@@ -29,7 +29,7 @@
       <title>Authd</title>
       <single>
         <search>
-          <query>index=* sourcetype="wazuh_status"  | rename data.ossec-authd as authd | eval estado=if(authd="running","OK","DOWN") | stats count by estado | fields estado</query>
+          <query>index="wazuh" sourcetype="wazuh_status"  | rename data.ossec-authd as authd | eval estado=if(authd="running","OK","DOWN") | stats count by estado | fields estado</query>
           <earliest>-1m</earliest>
           <latest>now</latest>
           <sampleRatio>1</sampleRatio>
@@ -53,7 +53,7 @@
       <title>Ossec-execd</title>
       <single>
         <search>
-          <query>index=* sourcetype="wazuh_status"  | rename data.ossec-execd as execd | eval estado=if(execd="running","OK","DOWN") | stats count by estado | fields estado</query>
+          <query>index="wazuh" sourcetype="wazuh_status"  | rename data.ossec-execd as execd | eval estado=if(execd="running","OK","DOWN") | stats count by estado | fields estado</query>
           <earliest>-1m</earliest>
           <latest>now</latest>
           <sampleRatio>1</sampleRatio>
@@ -77,7 +77,7 @@
       <title>Logcollector</title>
       <single>
         <search>
-          <query>index=* sourcetype="wazuh_status"  | rename data.ossec-logcollector as logcollector | eval estado=if(logcollector="running","OK","DOWN") | stats count by estado | fields estado</query>
+          <query>index="wazuh" sourcetype="wazuh_status"  | rename data.ossec-logcollector as logcollector | eval estado=if(logcollector="running","OK","DOWN") | stats count by estado | fields estado</query>
           <earliest>-1m</earliest>
           <latest>now</latest>
           <sampleRatio>1</sampleRatio>
@@ -101,7 +101,7 @@
       <title>Maild</title>
       <single>
         <search>
-          <query>index=* sourcetype="wazuh_status"  | rename data.ossec-maild as maild | eval estado=if(maild="running","OK","DOWN") | stats count by estado | fields estado</query>
+          <query>index="wazuh" sourcetype="wazuh_status"  | rename data.ossec-maild as maild | eval estado=if(maild="running","OK","DOWN") | stats count by estado | fields estado</query>
           <earliest>-1m</earliest>
           <latest>now</latest>
           <sampleRatio>1</sampleRatio>
@@ -125,7 +125,7 @@
       <title>Monitord</title>
       <single>
         <search>
-          <query>index=* sourcetype="wazuh_status"  | rename data.ossec-monitord as monitord | eval estado=if(monitord="running","OK","DOWN") | stats count by estado | fields estado</query>
+          <query>index="wazuh" sourcetype="wazuh_status"  | rename data.ossec-monitord as monitord | eval estado=if(monitord="running","OK","DOWN") | stats count by estado | fields estado</query>
           <earliest>-1m</earliest>
           <latest>now</latest>
           <sampleRatio>1</sampleRatio>
@@ -149,7 +149,7 @@
       <title>Remoted</title>
       <single>
         <search>
-          <query>index=* sourcetype="wazuh_status"  | rename data.ossec-remoted as remoted | eval estado=if(remoted="running","OK","DOWN") | stats count by estado | fields estado</query>
+          <query>index="wazuh" sourcetype="wazuh_status"  | rename data.ossec-remoted as remoted | eval estado=if(remoted="running","OK","DOWN") | stats count by estado | fields estado</query>
           <earliest>-1m</earliest>
           <latest>now</latest>
           <sampleRatio>1</sampleRatio>
