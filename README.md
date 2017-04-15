@@ -1,5 +1,7 @@
 # splunk_wazuh
-# Israel Gutierrez 
+# Splunk App for Wazuh
+
+Author by : Israel Gutierrez 
 
 Download Wazuh Here: https://wazuh.com
 
