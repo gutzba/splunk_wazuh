@@ -1,0 +1,9 @@
+#To Do List
+
+Integracion de todos los paneles
+Mas extracciones de la API para sacar llaves
+Interacciones de la API para Agregar o extraer informacion de los agentes
+Coleccion de logs internos de Wazuh
+Alertas internas de la operacion de Wazuh
+Correlaciones mas avanzadas
+
